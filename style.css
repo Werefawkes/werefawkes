@@ -16,6 +16,7 @@
 	font-family: 'Source Sans Pro', sans-serif;
 */
 
+/* General */
 body {
 	background-color: #222;
 	color: #fff;
@@ -27,6 +28,7 @@ img {
 	border-radius: 5px;
 }
 
+/* Navbar */
 nav {
 	background-color: #5a5a5a;
 	width: 80%;
@@ -39,3 +41,5 @@ nav {
 nav li {
 	display: inline;
 }
+
+/* Header */
