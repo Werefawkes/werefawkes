@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+
 /* 
-	Color Palette
+	Color Palette:
 	
 	--eerie-black: #222222ff;
 	--davys-grey: #5a5a5aff;
@@ -7,9 +9,33 @@
 	--rosso-corsa: #e00000ff;
 	--candy-pink: #ee6d6dff;
 	--white: #ffffffff;
+
+	Fonts:
+	
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 */
 
 body {
 	background-color: #222;
 	color: #fff;
+	font-family: "Roboto", sans-serif;
+}
+
+img {
+	border: hidden;
+	border-radius: 5px;
+}
+
+nav {
+	background-color: #5a5a5a;
+	width: 80%;
+	margin: auto;
+	border: hidden;
+	border-radius: 5px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav li {
+	display: inline;
 }
