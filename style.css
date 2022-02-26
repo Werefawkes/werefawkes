@@ -2,6 +2,7 @@
 	Color Palette
 	
 	--eerie-black: #222222ff;
+	--davys-grey: #5a5a5aff;
 	--ou-crimson-red: #811111ff;
 	--rosso-corsa: #e00000ff;
 	--candy-pink: #ee6d6dff;
@@ -10,4 +11,5 @@
 
 body {
 	background-color: #222;
+	color: #fff;
 }
