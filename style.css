@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
 
-/* 
-	Color Palette:
-	
+
+/* Color Palette: */
+:root {
 	--eerie-black: #222222ff;
 	--davys-grey: #5a5a5aff;
 	--ou-crimson-red: #811111ff;
 	--rosso-corsa: #e00000ff;
 	--candy-pink: #ee6d6dff;
 	--white: #ffffffff;
-
+}
+/* 
 	Fonts:
-	
+
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Source Sans Pro', sans-serif;
 */
 
 /* General */
 body {
-	background-color: #222;
-	color: #fff;
+	background-color: var(--eerie-black);
+	color: var(--white);
 	font-family: "Roboto", sans-serif;
 }
 
@@ -28,18 +29,37 @@ img {
 	border-radius: 5px;
 }
 
+/* Sidebar */
+#sidebar {
+	display: inline-block;
+	width: 10%;
+	background-color: var(--davys-grey);
+}
+
+main {
+	display: inline-block;
+	width: 89%;
+	background-color: var(--davys-grey);
+}
+
+h1 {
+	text-align: center;
+}
+
 /* Navbar */
 nav {
-	background-color: #5a5a5a;
-	width: 80%;
+	/* width: 80%; */
 	margin: auto;
-	border: hidden;
-	border-radius: 5px;
+	border: 1px solid var(--ou-crimson-red);
 	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+
+nav ul {
+	padding: 0;
 }
 
 nav li {
-	display: inline;
+	display: block;
+	padding: 0;
 }
-
-/* Header */
