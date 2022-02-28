@@ -22,6 +22,7 @@ body {
 	background-color: var(--eerie-black);
 	color: var(--white);
 	font-family: "Roboto", sans-serif;
+	display: flex;
 }
 
 img {
@@ -31,26 +32,32 @@ img {
 
 /* Sidebar */
 #sidebar {
-	display: inline-block;
-	width: 10%;
-	background-color: var(--davys-grey);
-}
+	/* display: flex; */
+	flex-direction: column;
+	flex: 1 1 auto;
 
-main {
-	display: inline-block;
-	width: 89%;
-	background-color: var(--davys-grey);
+	padding: 1em;
+
+	border: 1px var(--ou-crimson-red);
+	border-style: hidden solid;
 }
 
 h1 {
 	text-align: center;
+	font-size: 3em;
+
+	border: 1px var(--ou-crimson-red);
+	border-style: solid hidden;
+
+	padding: 0.5em;
 }
 
 /* Navbar */
 nav {
-	/* width: 80%; */
+	width: 80%;
 	margin: auto;
-	border: 1px solid var(--ou-crimson-red);
+	border: 1px var(--ou-crimson-red);
+	border-style: solid hidden;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
 }
@@ -62,4 +69,23 @@ nav ul {
 nav li {
 	display: block;
 	padding: 0;
+}
+
+/* Main body */
+main {
+	/* display: flex; */
+	/* flex-direction: column; */
+	flex: 5 5 auto;
+
+	margin-left: 10%;
+	padding: 1%;
+
+	border: 1px var(--ou-crimson-red);
+	border-style: hidden solid;
+}
+
+main img {
+	display: block;
+	width: 70%;
+	margin: auto;
 }
